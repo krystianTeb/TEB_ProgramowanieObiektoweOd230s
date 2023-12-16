@@ -1,10 +1,9 @@
 package org.example;
 
 public class Osoba {
-    public String imie;
-    public String nazwisko;
-    public Integer numerTelefonu;
-
+    private String imie;
+    private String nazwisko;
+    private Integer numerTelefonu;
     public Osoba(String imie, String nazwisko, Integer numerTelefonu) {
         this.imie = imie;
         this.nazwisko = nazwisko;
