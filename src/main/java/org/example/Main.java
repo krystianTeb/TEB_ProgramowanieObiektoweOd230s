@@ -1,5 +1,4 @@
 package org.example;
-
 import java.util.Scanner;
 
 public class Main {
@@ -7,14 +6,13 @@ public class Main {
 
         int liczba = 5;
 
-        Punkt punkt1 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
-        punkt1.x = 5;//Przypisujemy 5 do właściwości x w obiekcie punkt1
+        Punkt punkt1 = new Punkt(5, 2);//Utworzenie obiektu (instancji) klasy Punkt
         punkt1.wypiszPunkty();
 
-        Punkt punkt2 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
+        Punkt punkt2 = new Punkt(8,8);//Utworzenie obiektu (instancji) klasy Punkt
         punkt2.wypiszPunkty();
 
-        Punkt punkt3 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
+        Punkt punkt3 = new Punkt(6, 7);//Utworzenie obiektu (instancji) klasy Punkt
         punkt3.wypiszPunkty();
     }
 }

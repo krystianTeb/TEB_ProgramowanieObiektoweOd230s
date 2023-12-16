@@ -5,6 +5,11 @@ class Punkt{
     int y; //To jest właściwość (polami) klasy
     void wypiszPunkty(){ //To jest metoda, która wypisuje właściwości obiektu
         System.out.println("Właściwość x: " + this.x +
-                "\nWłaściwość y: " + this.y);
+                            "\nWłaściwość y: " + this.y);
+    }
+
+    public Punkt(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }
