@@ -8,8 +8,8 @@ class Punkt{
                             "\nWłaściwość y: " + this.y);
     }
 
-    public Punkt(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public Punkt(int PobraneX, int PobraneY) {//Konstruktor - metoda która jest wywoływana podczas tworzenia obiektu
+        this.x = PobraneX;
+        this.y = PobraneY;
     }
 }
