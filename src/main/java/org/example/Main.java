@@ -10,11 +10,15 @@ class Punkt{
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in); //Tworzymy nowy obiekt klasy Scaner
-        int liczba = 5; //Utworzenie zmiennej
-
-
-        System.out.println("Potęgowanie: " + Math.pow(2, 2));//Metoda matematyczna pow()
-        System.out.println("Wartość PI: " + Math.PI);//Właściwość klasy matematycznej
+        Punkt punkt1 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
+        punkt1.x = 5;//Przypisujemy 5 do właściwości x w obiekcie punkt1
+        System.out.println("Właściwość x obiektu punkt1: " + punkt1.x +
+                            "\nWłaściwość y obiektu punkt1: " + punkt1.y);
+        Punkt punkt2 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
+        System.out.println("Właściwość x obiektu punkt2: " + punkt2.x +
+                            "\nWłaściwość y obiektu punkt2: " + punkt2.y);
+        Punkt punkt3 = new Punkt();//Utworzenie obiektu (instancji) klasy Punkt
+        System.out.println("Właściwość x obiektu punkt3: " + punkt3.x +
+                "\nWłaściwość y obiektu punkt3: " + punkt3.y);
     }
 }
