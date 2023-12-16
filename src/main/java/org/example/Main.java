@@ -7,9 +7,11 @@ public class Main {
         int liczba = 5;
 
         Punkt punkt1 = new Punkt(5, 2);//Utworzenie obiektu (instancji) klasy Punkt
-        punkt1.x = 0;//przypisanie nowej wartości do pola x
-        punkt1.y = 0;//przypisanie nowej wartości do pola y
         punkt1.wypiszPunkty();
+        punkt1.setX(10);//Wywołanie metody set (setter)
+        System.out.println( punkt1.getX() );//Wywołanie metody get (getter)
+
+
 
         Punkt punkt2 = new Punkt(8,8);//Utworzenie obiektu (instancji) klasy Punkt
         punkt2.wypiszPunkty();
