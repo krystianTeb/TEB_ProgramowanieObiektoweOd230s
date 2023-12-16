@@ -7,7 +7,7 @@ class Punkt{
         this.x = x;
         this.y = y;
     }
-    public void wyswietlPunkt(){
-        System.out.println("(" + this.x + ", " + this.y + ")");
+    public String wyswietlPunkt(){
+        return "(" + this.x + ", " + this.y + ")";
     }
 }
